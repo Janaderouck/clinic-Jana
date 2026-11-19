@@ -4,7 +4,7 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; color: #
 img { max-width: 100%; height: auto; }
 /* Your palette. Change the values, then use the variables below. */
 :root {
---accent: #c2185b;
+--accent: #640028;
 --accent-soft: #fce4ec;
 }
 /* Your styles start here. */
