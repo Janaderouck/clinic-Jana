@@ -1,0 +1,45 @@
+/* A small reset so the page starts consistently. Leave these three rules. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; color: #4a0e2b; background: #ffffff; }
+img { max-width: 100%; height: auto; }
+/* Your palette. Change the values, then use the variables below. */
+:root {
+--accent: #c2185b;
+--accent-soft: #fce4ec;
+}
+/* Your styles start here. */
+.site-header {
+background: var(--accent);
+color: #ffffff;
+padding-top: 0.75rem;
+padding-bottom: 1.25rem;
+}
+.header-top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 0.5rem 1rem;
+}
+.brand { margin: 0; font-weight: 700; }
+.site-header a { color: #ffffff; }
+.site-header h1 { font-size: 2rem; line-height: 1.15; margin: 1rem 0 0.25rem; }
+.promise { font-size: 1.1rem; margin: 0; }
+a { color: var(--accent); }
+main { max-width: 42rem; margin: 0 auto; padding-top: 1rem; padding-bottom: 1rem; }
+section { margin-bottom: 2rem; }
+h2 { margin: 0 0 0.75rem; }
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; }
+.card {
+flex: 1 1 160px;
+border: 1px solid var(--accent);
+background: var(--accent-soft);
+padding: 0.75rem 1rem;
+}
+.card h3, .card p { margin: 0; }
+label { display: block; margin-top: 0.75rem; }
+input, select { font: inherit; padding: 0.4rem 0.5rem; width: 100%; max-width: 20rem; }
+button { display: block; font: inherit; padding: 0.5rem 0.9rem; margin-top: 1rem; background: var(--accent); color: #ffffff; border: 0; border-radius: 6px; cursor: pointer; }
+output { font-weight: 700; }
+#message { margin-top: 0.75rem; font-weight: 600; }
+#m
