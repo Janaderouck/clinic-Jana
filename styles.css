@@ -43,3 +43,4 @@ button { display: block; font: inherit; padding: 0.5rem 0.9rem; margin-top: 1rem
 output { font-weight: 700; }
 #message { margin-top: 0.75rem; font-weight: 600; }
 #m
+#prices li { color: #8e0f74; font-weight: 700; }
